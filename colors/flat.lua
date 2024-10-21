@@ -6,7 +6,7 @@
 
 local theme = {
     -- Syntax
-    Normal                   = { fg = "fg", bg = "bg" },
+    Normal                   = { fg = "fg", bg = "NONE" },
     Terminal                 = { link = "Normal" },
     Type                     = { fg = "yellow" },
     StorageClass             = { link = "Type" },
@@ -83,7 +83,7 @@ local theme = {
     Search                   = { fg = "yellow", standout = true },
     CurSearch                = { link = "Search" },
     QuickFixLine             = { link = "Search" },
-    SpellBad                 = { fg = "red", italic = true, undercurl = true },
+    SpellBad                 = { fg = "NONE", italic = true, undercurl = true },
     SpellCap                 = { fg = "violet", italic = true, undercurl = true },
     SpellLocal               = { fg = "yellow", italic = true, undercurl = true },
     SpellRare                = { fg = "cyan", italic = true, undercurl = true },
